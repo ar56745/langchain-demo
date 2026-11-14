@@ -33,6 +33,7 @@ class RAGSearch:
         response = self.llm.invoke([prompt])
         return response.content
 
+
 # Example usage
 if __name__ == "__main__":
     rag_search = RAGSearch()
